@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:scrollbars="none"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="83dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/dsc" />
+
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/developer_student_clubs"
+        android:textSize="26sp"
+        android:fontFamily="@font/bold"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pes_university_ring_road_campus"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/medium"
+        android:layout_marginTop="3dp" />
+
+
+        <TextView
+            android:id="@+id/eventsUpcoming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/upcoming_events"
+            android:textSize="28sp"
+            android:layout_gravity="center"
+            android:textColor="@color/blue"
+            android:fontFamily="@font/bold"
+            android:layout_marginTop="25dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewUpComingEvents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/recycler_view_model"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:padding="5dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+        <TextView
+            android:id="@+id/eventsPast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/past_events"
+            android:textSize="28sp"
+            android:layout_gravity="center"
+            android:textColor="@color/blue"
+            android:fontFamily="@font/bold"
+            android:layout_marginTop="10dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewPastEvents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            tools:listitem="@layout/recycler_view_model"
+            android:padding="5dp">
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+        <TextView
+            android:id="@+id/coreTeam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/organizers"
+            android:textSize="28sp"
+            android:layout_gravity="center"
+            android:textColor="@color/blue"
+            android:fontFamily="@font/bold"
+            android:layout_marginTop="10dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewOrganizers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:padding="5dp">
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <Button
+            android:id="@+id/show"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Show me what you got"/>
+        <TextView
+            android:id="@+id/displayContents1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            />
+        <TextView
+            android:id="@+id/displayContents2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"/>
+
+
+
+        <Button
+            android:id="@+id/usersdisplay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Users"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrivacyActivity"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="4dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="83dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/dsc" />
+
+         <TextView
+             android:id="@+id/t"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center_horizontal"
+             android:text="@string/developer_student_clubs"
+             android:textSize="26sp"
+             android:fontFamily="@font/bold"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pes_university_ring_road_campus"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/medium"
+            android:layout_marginTop="3dp"
+            />
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/privacy_policy"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:textColor="@color/blue"
+        android:fontFamily="@font/bold"/>
+
+
+        <TextView
+            android:id="@+id/para1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/para1"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/regular"
+            android:layout_marginTop="16dp"
+            />
+
+
+
+        <TextView
+            android:id="@+id/para2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/para2"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/regular"
+            android:layout_marginTop="16dp"
+            />
+
+
+        <TextView
+            android:id="@+id/title3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/information_collection_and_use"
+            android:textAlignment="center"
+            android:textSize="21sp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/bold"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/para3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/para3"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/regular"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/para4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/para4"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/regular"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/link_playservices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/google_play_services"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textColor="@color/green"
+            android:layout_gravity="center"
+            android:fontFamily="@font/bold"
+
+            android:layout_marginTop="16dp"/>
+
+
+        <TextView
+            android:id="@+id/link_firebase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/firebase_analytics"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textColor="@color/yellow"
+            android:layout_gravity="center"
+            android:fontFamily="@font/bold"
+            android:layout_marginTop="16dp"/>
+
+
+        <TextView
+            android:id="@+id/title4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/log_data"
+            android:textAlignment="center"
+            android:textSize="21sp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/bold"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/para5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/para5"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/regular"
+            android:layout_marginTop="16dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

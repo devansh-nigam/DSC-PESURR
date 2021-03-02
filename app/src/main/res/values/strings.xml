@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">DSC PESU RR</string>
+    <string name="developer_student_clubs">Developer Student Clubs</string>
+    <string name="pes_university_ring_road_campus">PES University Ring Road Campus</string>
+    <string name="logo">logo</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="para1">DSC PESU Android Team built the DSC PESU RR app as a free app. This service is provided by DSC PESU at no cost and is intended for use as is. This page is used to inform visitors regarding my policies with the collection, use, and disclosure of personal information if anyone decided to use our service.</string>
+    <string name="para2">If you choose to use our service, then you agree to the collection and use of information in relation to this policy. The personal information that we collect is used for providing and improving the service. We will not use or share your information with anyone except as described in this Privacy Policy. The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at DSC PESU unless otherwise defined in this Privacy Policy.</string>
+    <string name="information_collection_and_use">Information Collection and Use</string>
+    <string name="para3">For a better experience, while using our service, we may require you to provide us with certain personally identifiable information, including but not limited to First Name, Last Name, SRN/USN, Email , Phone, Branch, Semester, Photo. The information that we request will be retained on your device and is not collected by us in any way.</string>
+    <string name="para4">The app does use third party services that may collect information used to identify you. Link to privacy policy of third party service providers used by the app</string>
+    <string name="google_play_services">Google Play Services</string>
+    <string name="firebase_analytics">Firebase Analytics</string>
+    <string name="log_data">Log Data</string>
+    <string name="para5">We want to inform you that whenever you use our service, in a case of an error in the app, the Android Team at DSC PESU RR collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing our service, the time and date of your use of the service, and other statistics.</string>
+    <string name="cookies">Cookies</string>
+    <string name="delete_user">Delete User</string>
+    <string name="let_us_know_you_better">Help Us Know You Better</string>
+    <string name="name">Name</string>
+    <string name="welcome">Welcome Aboard!</string>
+    <string name="srn_usn">SRN | USN</string>
+
+    <string-array name="SemesterEven">
+        <item>Semester</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="SemesterOdd">
+        <item>Semester</item>
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="Branches">
+        <item>Branch</item>
+        <item>Computer Science</item>
+        <item>Electronics &amp; Communication</item>
+        <item>Electrical &amp; Electronics</item>
+        <item>Mechanical</item>
+        <item>Civil</item>
+        <item>Biotechnology</item>
+    </string-array>
+
+    <string-array name="Domain">
+        <item>Event Domain</item>
+        <item>General Session</item>
+        <item>Cloud</item>
+        <item>ML/AI</item>
+        <item>App Dev</item>
+        <item>Web Dev</item>
+    </string-array>
+
+
+    <string name="selected_item">Selected item:</string>
+    <string name="agree_and_continue">Agree and Continue</string>
+    <string name="semester">Semester</string>
+    <string name="i_am_a_student_of_pes_university_and_i_have_read_and_agreed_to_privacy_policy_of_dscpesu_rr">I am a student of PES University and I have read and agreed to Privacy Policy of DSCPESU RR</string>
+    <string name="upcoming_events">Upcoming Events</string>
+    <string name="_30_days_of_google_cloud">30 Days Of Google Cloud</string>
+    <string name="past_events">Past Events</string>
+    <string name="organizers">Organizers</string>
+    <string name="devansh_nigam">Devansh Nigam</string>
+    <string name="app_development">App Development</string>
+    <string name="delete_my_account">Delete My Account</string>
+    <string name="event_title">Event Title</string>
+    <string name="event_details">Event Details</string>
+    <string name="upload_event_banner">Upload Event Banner</string>
+    <string name="add_an_event">Add An Event</string>
+    <string name="select_event_date">Select Event Date</string>
+    <string name="add_event">Add Event</string>
+    <string name="select_event_banner">Select Event Banner</string>
+
+</resources>
