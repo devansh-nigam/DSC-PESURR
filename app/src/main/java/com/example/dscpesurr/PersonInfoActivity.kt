@@ -93,36 +93,62 @@ class PersonInfoActivity : AppCompatActivity()
             flagSRN=0
         }
 
-
-        val branches = resources.getStringArray(R.array.Branches)
         val branchSpinner = findViewById<Spinner>(R.id.spinnerBranch)
+        val adapter = BranchArrayAdapter(this,Branches.list!!)
+        branchSpinner.adapter=adapter
 
-        if (branchSpinner != null)
-        {
-            val semesterAdapter = ArrayAdapter(
-                    this,
-                    android.R.layout.simple_spinner_item, branches
-            )
-            semesterAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        branchSpinner.onItemSelectedListener = object: AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
 
-            branchSpinner.adapter = semesterAdapter
+                val selectedItem = parent!!.getItemAtPosition(position)
+                val s=selectedItem.toString()
+                branch=s.substring(s.lastIndexOf('=')+1)
+                branch=branch.substring(0,branch.indexOf(')'))
 
-            branchSpinner.onItemSelectedListener = object :
-                    AdapterView.OnItemSelectedListener {
-                override fun onItemSelected(parent: AdapterView<*>,
-                                            view: View, position: Int, id: Long) {
-//                    Toast.makeText(this@PersonInfoActivity,
+                //Toast.makeText(this@PersonInfoActivity, "$branch", Toast.LENGTH_SHORT).show()
+//                Toast.makeText(this@PersonInfoActivity,
 //                        getString(R.string.selected_item) + " " +
 //                                "" + semester[position], Toast.LENGTH_SHORT).show()
                     if(position==0)flagBranch=1
-                    else{ flagBranch=0;branch=branches[position];}
-                }
-
-                override fun onNothingSelected(parent: AdapterView<*>) {
-                    flagBranch=1
-                }
+                    else{ flagBranch=0;
+                        //branch=branches[position];
+                    }
             }
-        }
+
+            override fun onNothingSelected(parent: AdapterView<*>?) {
+                flagBranch=1
+            }
+
+
+
+
+//        if (branchSpinner != null)
+//        {
+//            val semesterAdapter = ArrayAdapter(
+//                    this,
+//                    android.R.layout.simple_spinner_item, branches
+//            )
+//            semesterAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+//
+//            branchSpinner.adapter = semesterAdapter
+//
+//            branchSpinner.onItemSelectedListener = object :
+//                    AdapterView.OnItemSelectedListener {
+//                override fun onItemSelected(parent: AdapterView<*>,
+//                                            view: View, position: Int, id: Long) {
+////                    Toast.makeText(this@PersonInfoActivity,
+////                        getString(R.string.selected_item) + " " +
+////                                "" + semester[position], Toast.LENGTH_SHORT).show()
+//                    if(position==0)flagBranch=1
+//                    else{ flagBranch=0;branch=branches[position];}
+//                }
+//
+//                override fun onNothingSelected(parent: AdapterView<*>) {
+//                    flagBranch=1
+//                }
+//            }
+//
+       }
 
         val semester = resources.getStringArray(R.array.SemesterEven)
         val semesterSpinner = findViewById<Spinner>(R.id.spinnerSemester)

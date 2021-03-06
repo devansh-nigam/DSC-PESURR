@@ -39,7 +39,7 @@
 
     <string-array name="Branches">
         <item>Branch</item>
-        <item>Computer Science</item>
+        <item>Computer Science &amp; Engineering</item>
         <item>Electronics &amp; Communication</item>
         <item>Electrical &amp; Electronics</item>
         <item>Mechanical</item>
