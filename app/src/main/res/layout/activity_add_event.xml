@@ -84,6 +84,7 @@
                 android:layout_height="match_parent"
                 android:inputType="textMultiLine"
                 android:overScrollMode="always"
+                android:gravity="start|top"
                 android:scrollbarStyle="insideInset"
                 android:scrollbars="vertical"
                 />
